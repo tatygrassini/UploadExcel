@@ -62,13 +62,16 @@ Scaffoldhub::Specification.new do
   gem 'excel_rails', '0.1.3'
 
   post_install_message <<MESSAGE
-Please run "bundle install" to install the new gems added to your Gemfile.
-Then run "rake db:migrate" to create your new database table.
-Then run your Rails server and open http://localhost:3000/PLURAL_NAME
-to see the index page. You can click "Sample Template" to download an empty
-Excel file, and then upload it again after entering some data for each of
-your model's fields. See: https://github.com/pikender/UploadExcel/wiki/what-and-how-to-use
-for more information.
+
+
+**********************************************************************************************
+Please run "bundle install" to install the new gems added to your Gemfile.\n
+Then run "rake db:migrate" to create your new database table.\n
+Then run your Rails server and open http://localhost:3000/PLURAL_NAME to see the index page.\n 
+You can click "Sample Template" to download an empty Excel file, and then upload it again after 
+entering some data for each of your model's fields.\n 
+See: https://github.com/pikender/UploadExcel/wiki/what-and-how-to-use for more information.\n
+**********************************************************************************************
 MESSAGE
 
 end
