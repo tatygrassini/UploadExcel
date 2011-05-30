@@ -19,6 +19,9 @@ Scaffoldhub::Specification.new do
     tag 'upload'
     tag 'excel'
 
+    # Optionally specify an example of a scaffold parameter
+    parameter_example 'FIELD_NAME'
+
     # Optionally post a link to an article you write explaining how the scaffold works.
     blog_post 'https://github.com/pikender/UploadExcel/wiki/what-and-how-to-use'
   end
